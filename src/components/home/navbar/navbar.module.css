@@ -1,0 +1,32 @@
+.container {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 14px;
+  border-radius: 64px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 16px 0px;
+}
+
+.logo {
+  color: #2d465e;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-left: 12px;
+}
+
+.navLinks {
+  list-style-type: none;
+  display: flex;
+  gap: 16px;
+}
+
+.navLinks li a {
+  text-decoration: none;
+  color: #212529;
+}
+
+.navLinks li a:hover {
+  color: #0d83fd;
+}

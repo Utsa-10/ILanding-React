@@ -1,0 +1,28 @@
+.container {
+  margin: 32px auto;
+  margin-top: 100px;
+  background-color: #0d6efd;
+  padding: 50px 150px;
+  height: 200px;
+}
+
+.container h2 {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #f8f9fa;
+  line-height: 3.5rem;
+}
+
+.container p {
+  color: #f8f9fa;
+  text-align: center;
+  line-height: 1.5rem;
+  margin-top: 10px;
+}
+
+.container button {
+  margin-top: 30px;
+  margin-left: 370px;
+  padding: 10px 30px;
+  border: solid #f8f9fa;
+}

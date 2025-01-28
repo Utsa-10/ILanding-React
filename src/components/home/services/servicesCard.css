@@ -1,0 +1,40 @@
+.services-container {
+  background-color: #ffff;
+  padding: 30px;
+  margin: 30px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  border-radius: 15px;
+}
+
+.service-icon {
+  background-color: #ecf5ff;
+  color: var(--accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  width: 32px;
+  height: 32px;
+  /* margin: 10px; */
+  border-radius: 50%;
+}
+
+.services-info-container {
+  margin-left: 35px;
+  gap: 1.5rem;
+  line-height: 25px;
+}
+
+.services-info-read {
+  color: #0d83fd;
+}
+
+.services-info-name {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.profile-designation {
+  color: rgba(0, 0, 0, 0.619);
+}
