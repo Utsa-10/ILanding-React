@@ -36,7 +36,7 @@ function Home() {
       <Action />
       <FaqsRow />
 
-      {/* <ListRendering /> */}
+      {/* <ListRendering list /> */}
     </div>
   );
 }
