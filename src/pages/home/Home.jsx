@@ -27,14 +27,14 @@ function Home() {
       <Pro />
       <FeaturesCardsRow />
       <FeaturesMobileRow />
-      <Clients />
       <FeaturePost />
+      <Clients />
       <TestimonialsRow />
       <FiguresRow />
       <ServicesRow />
       <ServicesCard />
-      <Action />
       <FaqsRow />
+      <Action />
 
       {/* <ListRendering/> */}
     </div>
