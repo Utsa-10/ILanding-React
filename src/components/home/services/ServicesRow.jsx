@@ -9,6 +9,30 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 function ServicesRow() {
+  const data = [
+    {
+      icon: { faWaveSquare },
+      name: "Nesciunt Mete",
+      designation:
+        "Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.",
+      read: "Read"
+    },
+    {
+      icon: { faChartDiagram },
+      name: "Eosle Commodi",
+      designation:
+        "Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.",
+      read: "Read"
+    },
+    {
+      icon: { faDisease },
+      name: "Ledo Markt",
+      designation:
+        "Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.",
+
+      read: "Read"
+    }
+  ];
   return (
     <div className={styles.container}>
       {/* Title */}
