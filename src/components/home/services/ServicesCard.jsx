@@ -1,7 +1,6 @@
-import { faDesktop } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import "./servicesCard.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function ServicesCard(props) {
   return (
